@@ -1,0 +1,3 @@
+regulation,kind,name,field,old_value,new_value,note
+M-D,move,Rock Slide,accuracy,90,95,Regulation M-D balance change
+M-D,move,Rock Slide,flinch_chance,30,20,Regulation M-D balance change
