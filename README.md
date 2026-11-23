@@ -7,10 +7,10 @@ Last updated: 2026-11-23
 
 ## Using it
 
-Sablemetrics reads this repository on its own: it downloads it the first time it starts, and **Settings › Database ›
-Update now** gets the latest after that. Without internet on that computer, download this repository elsewhere
-(**Code › Download ZIP**), unzip it, and use **Import a downloaded copy** in the same place. Its tournament data then matches this repository exactly (your own teams, settings and
-logs are never touched). The Pokedex app builds and publishes it.
+Sablemetrics reads this repository on its own: it downloads it when it has no database yet, and tells you when a newer
+version is here (**Update now**, also in **Settings › Database**). Without internet on that computer, download this
+repository elsewhere (**Code › Download ZIP**), unzip it, and use **Import a downloaded copy** in Settings › Database.
+Its data then matches this repository exactly (your own teams, settings and logs are never touched).
 
 ## Files
 
@@ -39,6 +39,7 @@ logs are never touched). The Pokedex app builds and publishes it.
 | [ranked_detail.csv](data/ranked_detail.csv) | 42,854 | Each ranked Pokémon's most used moves, items, abilities, natures (with shares) and teammates |
 | [ranked_spreads.csv](data/ranked_spreads.csv) | 29,543 | Each ranked Pokémon's most used stat point spreads, with shares |
 | [upcoming_events.csv](data/upcoming_events.csv) | 66 | Upcoming official events: name, dates, place |
+| [localized_names.csv](data/localized_names.csv) | 0 | Pokémon, moves, abilities, items, natures and types in Spanish, French, German, Italian, Japanese, Korean and Chinese (official names, with the game's short text where there is one) |
 
 Every file is UTF-8 CSV with a header row and LF line endings. A large table is split into parts of at most 20 MB
 (each with the header row), well under GitHub's limits; `manifest.json` lists every file with its row count, so an app
@@ -50,3 +51,12 @@ from their content (a tournament's format, name and date), so they stay the same
 - Tournament results are the players' public results; legacy team sheets carry no player names.
 - Images are not included (the apps fetch their own).
 - See [THIRD_PARTY_NOTICES.md](data/THIRD_PARTY_NOTICES.md) for the licences of the open-source parts.
+
+## Licence
+
+Free to use, copy, change and share, for anything, under the [MIT License with attribution](LICENSE): if you use
+this data publicly (a website, app, article, video or dataset), credit **Sablemetrics** and link to
+https://github.com/sablemetrics/database. For example: *Data: [Sablemetrics](https://github.com/sablemetrics/database)*.
+Parts from open-source projects keep their own licences ([THIRD_PARTY_NOTICES.md](data/THIRD_PARTY_NOTICES.md)).
+Pokémon and all respective names are trademarks of Nintendo, Creatures Inc. and GAME FREAK inc.; Sablemetrics is an
+unofficial fan project, not affiliated with or endorsed by them.

@@ -1,7 +1,7 @@
 # Third-party notices
 
 Parts of this data come from open-source projects whose licenses ask that their notices travel with it:
-Pokémon height and weight and move effect data (PokéAPI), and the data and descriptions of the Pokémon, moves,
+Pokémon height and weight, move effect data and the names in other languages (PokéAPI), and the data and descriptions of the Pokémon, moves,
 abilities and items from other games (Pokémon Showdown).
 
 ## PokéAPI

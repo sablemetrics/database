@@ -264,9 +264,21 @@
      "bytes": 4568
     }
    ]
+  },
+  {
+   "table": "localized_names.csv",
+   "rows": 0,
+   "files": [
+    {
+     "path": "localized_names.csv",
+     "rows": 0,
+     "bytes": 32
+    }
+   ]
   }
  ],
  "extras": [
-  "THIRD_PARTY_NOTICES.md"
+  "THIRD_PARTY_NOTICES.md",
+  "LICENSE"
  ]
 }
