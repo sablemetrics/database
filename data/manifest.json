@@ -1,0 +1,272 @@
+{
+ "format": "sablemetrics-db",
+ "version": 1,
+ "tables": [
+  {
+   "table": "natures.csv",
+   "rows": 25,
+   "files": [
+    {
+     "path": "natures.csv",
+     "rows": 25,
+     "bytes": 358
+    }
+   ]
+  },
+  {
+   "table": "abilities.csv",
+   "rows": 215,
+   "files": [
+    {
+     "path": "abilities.csv",
+     "rows": 215,
+     "bytes": 39886
+    }
+   ]
+  },
+  {
+   "table": "items.csv",
+   "rows": 166,
+   "files": [
+    {
+     "path": "items.csv",
+     "rows": 166,
+     "bytes": 25137
+    }
+   ]
+  },
+  {
+   "table": "moves.csv",
+   "rows": 510,
+   "files": [
+    {
+     "path": "moves.csv",
+     "rows": 510,
+     "bytes": 106218
+    }
+   ]
+  },
+  {
+   "table": "pokemon.csv",
+   "rows": 347,
+   "files": [
+    {
+     "path": "pokemon.csv",
+     "rows": 347,
+     "bytes": 25325
+    }
+   ]
+  },
+  {
+   "table": "pokemon_abilities.csv",
+   "rows": 722,
+   "files": [
+    {
+     "path": "pokemon_abilities.csv",
+     "rows": 722,
+     "bytes": 19860
+    }
+   ]
+  },
+  {
+   "table": "learnsets.csv",
+   "rows": 21574,
+   "files": [
+    {
+     "path": "learnsets.csv",
+     "rows": 21574,
+     "bytes": 453382
+    }
+   ]
+  },
+  {
+   "table": "formats.csv",
+   "rows": 4,
+   "files": [
+    {
+     "path": "formats.csv",
+     "rows": 4,
+     "bytes": 224
+    }
+   ]
+  },
+  {
+   "table": "format_pokemon.csv",
+   "rows": 939,
+   "files": [
+    {
+     "path": "format_pokemon.csv",
+     "rows": 939,
+     "bytes": 24282
+    }
+   ]
+  },
+  {
+   "table": "tournaments.csv",
+   "rows": 619,
+   "files": [
+    {
+     "path": "tournaments.csv",
+     "rows": 619,
+     "bytes": 64855
+    }
+   ]
+  },
+  {
+   "table": "teams.csv",
+   "rows": 28125,
+   "files": [
+    {
+     "path": "teams.csv",
+     "rows": 28125,
+     "bytes": 2217844
+    }
+   ]
+  },
+  {
+   "table": "team_members.csv",
+   "rows": 165958,
+   "files": [
+    {
+     "path": "team_members.csv",
+     "rows": 165958,
+     "bytes": 19704065
+    }
+   ]
+  },
+  {
+   "table": "matches.csv",
+   "rows": 59645,
+   "files": [
+    {
+     "path": "matches.csv",
+     "rows": 59645,
+     "bytes": 3865053
+    }
+   ]
+  },
+  {
+   "table": "mechanics_changes.csv",
+   "rows": 2,
+   "files": [
+    {
+     "path": "mechanics_changes.csv",
+     "rows": 2,
+     "bytes": 187
+    }
+   ]
+  },
+  {
+   "table": "legacy_dex.csv",
+   "rows": 1838,
+   "files": [
+    {
+     "path": "legacy_dex.csv",
+     "rows": 1838,
+     "bytes": 514605
+    }
+   ]
+  },
+  {
+   "table": "legacy_events.csv",
+   "rows": 137,
+   "files": [
+    {
+     "path": "legacy_events.csv",
+     "rows": 137,
+     "bytes": 11363
+    }
+   ]
+  },
+  {
+   "table": "legacy_teams.csv",
+   "rows": 59193,
+   "files": [
+    {
+     "path": "legacy_teams/part-001.csv",
+     "rows": 26842,
+     "bytes": 20970691
+    },
+    {
+     "path": "legacy_teams/part-002.csv",
+     "rows": 19711,
+     "bytes": 20971094
+    },
+    {
+     "path": "legacy_teams/part-003.csv",
+     "rows": 12640,
+     "bytes": 13436048
+    }
+   ]
+  },
+  {
+   "table": "legacy_matches.csv",
+   "rows": 240109,
+   "files": [
+    {
+     "path": "legacy_matches.csv",
+     "rows": 240109,
+     "bytes": 15714769
+    }
+   ]
+  },
+  {
+   "table": "ranked_snapshots.csv",
+   "rows": 4,
+   "files": [
+    {
+     "path": "ranked_snapshots.csv",
+     "rows": 4,
+     "bytes": 301
+    }
+   ]
+  },
+  {
+   "table": "ranked_pokemon.csv",
+   "rows": 1044,
+   "files": [
+    {
+     "path": "ranked_pokemon.csv",
+     "rows": 1044,
+     "bytes": 36560
+    }
+   ]
+  },
+  {
+   "table": "ranked_detail.csv",
+   "rows": 42854,
+   "files": [
+    {
+     "path": "ranked_detail.csv",
+     "rows": 42854,
+     "bytes": 2297807
+    }
+   ]
+  },
+  {
+   "table": "ranked_spreads.csv",
+   "rows": 29543,
+   "files": [
+    {
+     "path": "ranked_spreads.csv",
+     "rows": 29543,
+     "bytes": 1627796
+    }
+   ]
+  },
+  {
+   "table": "upcoming_events.csv",
+   "rows": 66,
+   "files": [
+    {
+     "path": "upcoming_events.csv",
+     "rows": 66,
+     "bytes": 4568
+    }
+   ]
+  }
+ ],
+ "extras": [
+  "THIRD_PARTY_NOTICES.md"
+ ]
+}

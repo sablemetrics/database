@@ -1,0 +1,3 @@
+* text=auto eol=lf
+*.csv linguist-generated=true
+manifest.json linguist-generated=true
