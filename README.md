@@ -39,7 +39,7 @@ Its data then matches this repository exactly (your own teams, settings and logs
 | [ranked_detail.csv](data/ranked_detail.csv) | 42,854 | Each ranked Pokémon's most used moves, items, abilities, natures (with shares) and teammates |
 | [ranked_spreads.csv](data/ranked_spreads.csv) | 29,543 | Each ranked Pokémon's most used stat point spreads, with shares |
 | [upcoming_events.csv](data/upcoming_events.csv) | 66 | Upcoming official events: name, dates, place |
-| [localized_names.csv](data/localized_names.csv) | 0 | Pokémon, moves, abilities, items, natures and types in Spanish, French, German, Italian, Japanese, Korean and Chinese (official names, with the game's short text where there is one) |
+| [localized_names.csv](data/localized_names.csv) | 10,221 | Pokémon, moves, abilities, items, natures and types in Spanish, French, German, Italian, Japanese, Korean and Chinese (official names, with the game's short text where there is one) |
 
 Every file is UTF-8 CSV with a header row and LF line endings. A large table is split into parts of at most 20 MB
 (each with the header row), well under GitHub's limits; `manifest.json` lists every file with its row count, so an app

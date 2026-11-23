@@ -267,12 +267,12 @@
   },
   {
    "table": "localized_names.csv",
-   "rows": 0,
+   "rows": 10221,
    "files": [
     {
      "path": "localized_names.csv",
-     "rows": 0,
-     "bytes": 32
+     "rows": 10221,
+     "bytes": 1029704
     }
    ]
   }
